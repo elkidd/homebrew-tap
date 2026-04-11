@@ -1,0 +1,23 @@
+Formula/melding.rb
+  c4f4b6dbe90ae8ab 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "6621f0112b1aec2da8c19908f52a7cb6df24afcd",
+  "prompts": {
+    "c4f4b6dbe90ae8ab": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "unknown",
+        "model": "unknown"
+      },
+      "human_author": "Cabeza Cabrera, Miguel",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
