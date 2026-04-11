@@ -1,8 +1,8 @@
 class Melding < Formula
   desc "Command-line tool to send macOS user notifications"
   homepage "https://github.com/elkidd/melding"
-  url "https://github.com/elkidd/melding/releases/download/v1.0.0/melding-1.0.0.zip"
-  sha256 "59aa0b4953141b28f01a42d7043bab5621b7aadbc9351d2c34dc7fb41e7c474a"
+  url "https://github.com/elkidd/melding/releases/download/v1.0.1/melding-1.0.1.zip"
+  sha256 "c987ae4de2f026024b27254e26cfe58ac035c99b8fca43b6102d14010aeb23ed"
   license "MIT"
 
   def install
