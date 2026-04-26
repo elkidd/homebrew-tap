@@ -13,8 +13,19 @@ class Gitai < Formula
     bin.install_symlink libexec.glob("bin/*")
   end
 
-  def post_install
-    ohai "Run 'gitai install' to set up Copilot CLI agent hooks"
+  def caveats
+    s = <<~EOS
+      Run 'gitai install' to set up Copilot CLI agent hooks.
+    EOS
+    unless Dir.exist?(File.expand_path("~/.copilot"))
+      s += <<~EOS
+
+        ⚠️  ~/.copilot not found. Install GitHub Copilot CLI first:
+            npm install -g @anthropic-ai/claude-code
+            or visit https://github.com/github/copilot-cli
+      EOS
+    end
+    s
   end
 
   test do
