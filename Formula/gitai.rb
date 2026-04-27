@@ -1,8 +1,8 @@
 class Gitai < Formula
   desc "Track which lines of code were written by AI"
   homepage "https://github.com/elkidd/ai-blame"
-  url "https://github.com/elkidd/ai-blame/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "70321bcc1de8710019567576e817f7bcd1811a51028271b876c332f7de13fd17"
+  url "https://github.com/elkidd/ai-blame/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "d3ef696358e7a7b4a570b17020c2138e0d92192a546cb83ae07044421bbdb30f"
   license "MIT"
   head "https://github.com/elkidd/ai-blame.git", branch: "main"
 
